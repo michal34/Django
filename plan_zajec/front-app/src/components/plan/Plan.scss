@@ -1,0 +1,39 @@
+.plan-container {
+  height: 700px;
+  .select-container {
+    text-align: center;
+    .select {
+      margin-top: 14px;
+      font-size: 16px;
+      outline: none;
+      border-radius: 16px;
+      text-align: center;
+      padding: 6px 10px;
+      cursor: pointer;
+    }
+  }
+  .plan-content {
+    display: flex;
+    .hours-container {
+      width: 15%;
+      justify-content: center;
+      text-align: center;
+      font-size: 20px;
+      .hour {
+        margin-top: 40px;
+      }
+    }
+    .schedule {
+      display: flex;
+      justify-content: space-around;
+      width: 85%;
+      .day {
+        text-align: center;
+        font-size: 20px;
+        .day__lessons {
+          margin-top: 40px;
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.header-container {
+  text-align: center;
+  .Schedule {
+    font-size: 20px;
+    border-bottom: 3px solid white;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    img {
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+
+    h1 {
+      margin: auto;
+      text-align: center;
+      margin-bottom: 50px;
+    }
+  }
+}
